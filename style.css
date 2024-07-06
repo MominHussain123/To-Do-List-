@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: rgb(38, 1, 75);
+}
+
+.todo-list {
+    margin-top: 5%;
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 3vmin;
+    gap: 1rem;
+}
+
+h1 {
+    color: #fff;
+    padding: 2rem 0;
+    font-size: 3rem;
+}
+
+.formbox {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1vmin;
+    border: 1px solid white;
+    align-items: center;
+
+}
+
+.addbtn {
+    width: 20%;
+    height: 2rem;
+    border: 0;
+    outline: 0;
+    background-color: #fff;
+    color: rebeccapurple;
+    font-weight: 900;
+    font-size: 3vmin;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 1px solid white;
+    background: transparent;
+    transition: 1.5s all ease;
+    color: #fff;
+}
+
+.addinput {
+    border: 0;
+    outline: 0;
+    width: 80%;
+    height: 2rem;
+    background: rgb(38, 1, 75);
+    color: #fff;
+    font-size: 1rem;
+    padding: 0 1rem;
+}
+
+.listbox {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid white;
+    padding: 1vmin;
+    height: 2rem;
+    align-items: center;
+}
+
+.listboxcolor {
+    background-color: #fff;
+    color: rgb(38, 1, 75);
+}
+
+.hide {
+    display: none;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li p {
+    color: #fff;
+    margin-left: 1rem;
+}
+
+.buttons {
+    width: 5rem;
+    height: 2rem;
+    border: 0;
+    outline: 0;
+    margin-right: 3px;
+}
+
+.text {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+.button {
+    width: 7.5rem;
+    height: 3vmax;
+    font-weight: 900;
+    font-size: 3vmin;
+    color: rgb(38, 1, 75);
+    border: 0;
+    outline: 0;
+    border: 1px solid rgb(38, 1, 75);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(38, 1, 75);
+    color: #fff;
+}
+
+@media (max-width:836px){
+    .todo-list{
+        width: 90%;
+    }
+}
